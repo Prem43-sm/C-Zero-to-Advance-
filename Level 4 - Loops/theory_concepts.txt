@@ -1,0 +1,153 @@
+Level 4 Theory Concepts: Loops
+
+Goal:
+Loops help you run the same code again and again without writing it many times.
+
+1. Why loops are used
+
+Without loops, printing numbers from 1 to 100 would require 100 cout lines.
+
+With loops, you write the logic once and repeat it.
+
+Common loop uses:
+- Print repeated output
+- Process many numbers
+- Read multiple inputs
+- Search values
+- Calculate sums
+- Print patterns
+
+2. for loop
+
+A for loop is commonly used when you know how many times to repeat.
+
+Syntax:
+for (initialization; condition; update) {
+    // code
+}
+
+Example:
+for (int i = 1; i <= 5; i++) {
+    cout << i << endl;
+}
+
+Meaning:
+- int i = 1 starts the counter.
+- i <= 5 checks whether loop should continue.
+- i++ increases the counter after each round.
+
+3. while loop
+
+A while loop runs while a condition is true.
+
+Example:
+int i = 1;
+while (i <= 5) {
+    cout << i << endl;
+    i++;
+}
+
+Use while when the number of repetitions may depend on input or a changing condition.
+
+4. do while loop
+
+A do while loop runs at least once, then checks the condition.
+
+Example:
+int choice;
+do {
+    cout << "Enter 0 to exit: ";
+    cin >> choice;
+} while (choice != 0);
+
+Use it for menus where the program should show the menu at least once.
+
+5. Nested loops
+
+A nested loop means one loop inside another loop.
+
+Example:
+for (int row = 1; row <= 3; row++) {
+    for (int col = 1; col <= 3; col++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+
+Nested loops are used for:
+- Tables
+- Grids
+- Matrix problems
+- Pattern printing
+
+6. break
+
+break stops the loop immediately.
+
+Example:
+for (int i = 1; i <= 10; i++) {
+    if (i == 5) {
+        break;
+    }
+    cout << i << endl;
+}
+
+This prints 1 to 4.
+
+7. continue
+
+continue skips the current loop round and moves to the next round.
+
+Example:
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) {
+        continue;
+    }
+    cout << i << endl;
+}
+
+This prints 1, 2, 4, 5.
+
+8. Infinite loops
+
+An infinite loop never ends unless stopped by break, program exit, or manual interruption.
+
+Example:
+while (true) {
+    cout << "Running" << endl;
+}
+
+Be careful:
+Always make sure your loop condition can become false, unless you intentionally use break.
+
+9. Loop counters
+
+A loop counter tracks how many times a loop has run.
+
+Common counter names:
+- i
+- j
+- k
+- count
+- row
+- col
+
+10. Pattern printing
+
+Pattern printing uses nested loops to print shapes.
+
+Example:
+*
+* *
+* * *
+* * * *
+
+Pattern logic:
+- Outer loop controls rows.
+- Inner loop controls columns.
+
+Practical rule:
+For every loop, ask:
+1. Where should it start?
+2. When should it stop?
+3. How should it change each time?

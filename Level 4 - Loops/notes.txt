@@ -1,0 +1,17 @@
+Level 4 Notes
+
+Write your own notes here.
+
+Loop types I learned:
+
+Programs I compiled:
+
+Inputs I tested:
+
+Errors I created:
+
+How I fixed them:
+
+Pattern logic notes:
+
+Things to revise:

@@ -1,0 +1,114 @@
+Level 4 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Print 1 to N
+
+File:
+task_01_print_1_to_n.cpp
+
+Take N as input and print numbers from 1 to N.
+
+Task 2: Print N to 1
+
+File:
+task_02_print_n_to_1.cpp
+
+Take N as input and print numbers from N to 1.
+
+Task 3: Sum of first N numbers
+
+File:
+task_03_sum_n.cpp
+
+Take N and calculate:
+1 + 2 + 3 + ... + N
+
+Task 4: Multiplication table
+
+File:
+task_04_table.cpp
+
+Take a number and print its table from 1 to 10.
+
+Task 5: Factorial
+
+File:
+task_05_factorial.cpp
+
+Take a non-negative number and print its factorial.
+
+Task 6: Count digits
+
+File:
+task_06_count_digits.cpp
+
+Take a positive integer and count how many digits it has.
+
+Task 7: Reverse number
+
+File:
+task_07_reverse_number.cpp
+
+Take a number and print its reverse.
+
+Task 8: Prime number
+
+File:
+task_08_prime.cpp
+
+Take a number and check whether it is prime.
+
+Task 9: Print even numbers
+
+File:
+task_09_even_numbers.cpp
+
+Take N and print all even numbers from 1 to N.
+
+Task 10: Star triangle
+
+File:
+task_10_star_triangle.cpp
+
+For N = 5, print:
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Task 11: Number triangle
+
+File:
+task_11_number_triangle.cpp
+
+For N = 5, print:
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Task 12: Menu using do while
+
+File:
+task_12_menu_do_while.cpp
+
+Show this menu repeatedly until user enters 0:
+1. Say Hello
+2. Print C++
+0. Exit
+
+Completion checklist:
+
+[ ] I can write a for loop.
+[ ] I can write a while loop.
+[ ] I can write a do while loop.
+[ ] I understand loop counters.
+[ ] I can use break.
+[ ] I can use continue.
+[ ] I can avoid accidental infinite loops.
+[ ] I can write nested loops.
+[ ] I can print basic patterns.
+[ ] I completed factorial and prime number programs.

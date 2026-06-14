@@ -1,0 +1,71 @@
+Level 4 Practical Steps
+
+Goal:
+Practice loop syntax and learn how repeated logic works.
+
+Step 1: Practice for loop
+
+g++ example_01_for_loop.cpp -o example_01_for_loop
+.\example_01_for_loop.exe
+
+Step 2: Practice while loop
+
+g++ example_02_while_loop.cpp -o example_02_while_loop
+.\example_02_while_loop.exe
+
+Step 3: Practice do while loop
+
+g++ example_03_do_while_loop.cpp -o example_03_do_while_loop
+.\example_03_do_while_loop.exe
+
+Step 4: Build multiplication table
+
+g++ example_04_multiplication_table.cpp -o example_04_multiplication_table
+.\example_04_multiplication_table.exe
+
+Step 5: Calculate factorial
+
+g++ example_05_factorial.cpp -o example_05_factorial
+.\example_05_factorial.exe
+
+Step 6: Practice break and continue
+
+g++ example_06_break_continue.cpp -o example_06_break_continue
+.\example_06_break_continue.exe
+
+Step 7: Practice nested loops
+
+g++ example_07_nested_loops.cpp -o example_07_nested_loops
+.\example_07_nested_loops.exe
+
+Step 8: Check prime number
+
+g++ example_08_prime_number.cpp -o example_08_prime_number
+.\example_08_prime_number.exe
+
+Step 9: Print patterns
+
+g++ example_09_star_pattern.cpp -o example_09_star_pattern
+.\example_09_star_pattern.exe
+
+g++ example_10_number_pattern.cpp -o example_10_number_pattern
+.\example_10_number_pattern.exe
+
+Step 10: Modify and learn
+
+For every program:
+1. Change the loop range.
+2. Change i++ to i += 2.
+3. Try reverse counting.
+4. Try invalid input.
+5. Write observations in notes.txt.
+
+Step 11: Error practice
+
+Create and fix these errors:
+
+1. Forget i++ in a while loop.
+2. Use < when you meant <=.
+3. Put semicolon after for condition.
+4. Create an infinite loop and stop it with Ctrl + C.
+5. Forget braces in nested loops and observe the output.
