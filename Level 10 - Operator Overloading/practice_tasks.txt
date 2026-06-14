@@ -1,0 +1,98 @@
+Level 10 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Complex number arithmetic
+
+File:
+task_01_complex.cpp
+
+Create a ComplexNumber class.
+Overload +, -, ==, <<, and >>.
+
+Task 2: Distance addition
+
+File:
+task_02_distance.cpp
+
+Store meters and centimeters.
+Overload + and normalize centimeters after addition.
+
+Task 3: Counter increment
+
+File:
+task_03_counter.cpp
+
+Overload prefix and postfix ++.
+Print the returned and current values to show their difference.
+
+Task 4: Point comparison
+
+File:
+task_04_point.cpp
+
+Create a Point class.
+Overload == and !=.
+
+Task 5: Money ordering
+
+File:
+task_05_money.cpp
+
+Store an amount in the smallest currency unit.
+Overload ==, <, >, <=, and >=.
+
+Task 6: Fixed array
+
+File:
+task_06_fixed_array.cpp
+
+Create a small fixed-size array class.
+Overload [] for const and non-const objects.
+Reject invalid indexes.
+
+Task 7: Temperature input and output
+
+File:
+task_07_temperature.cpp
+
+Create a Temperature class.
+Overload << and >>.
+
+Task 8: Matrix addition
+
+File:
+task_08_matrix.cpp
+
+Create a 2 x 2 Matrix class.
+Overload + and +=.
+
+Task 9: Function object
+
+File:
+task_09_range_checker.cpp
+
+Create a RangeChecker object that stores minimum and maximum values.
+Overload () to return whether a number is inside the range.
+
+Task 10: Dynamic integer list
+
+File:
+task_10_integer_list.cpp
+
+Create a class that owns a dynamic integer array.
+Implement the destructor, copy constructor, and copy assignment operator.
+Verify that copied objects do not share the same array.
+
+Completion checklist:
+
+[ ] I know which operators can and cannot be overloaded.
+[ ] I can overload unary and binary operators.
+[ ] I understand member and non-member overloads.
+[ ] I can distinguish prefix and postfix increment.
+[ ] I can overload << and >> with stream references.
+[ ] I can implement copy assignment safely.
+[ ] I can provide const and non-const [] overloads.
+[ ] I can create a function object with ().
+[ ] I can overload comparison operators.
+[ ] My overloads preserve familiar operator meaning.

@@ -1,0 +1,183 @@
+Level 10 Theory Concepts: Operator Overloading
+
+Goal:
+Give classes natural, readable operations without changing what C++ operators
+normally mean.
+
+1. What is operator overloading?
+
+Operator overloading defines how an existing C++ operator works with a
+user-defined type.
+
+Example:
+
+Complex sum = first + second;
+
+The expression can call:
+
+Complex Complex::operator+(const Complex& other) const;
+
+2. Rules of operator overloading
+
+- At least one operand must have a user-defined type.
+- You cannot create a new operator symbol.
+- You cannot change an operator's precedence or associativity.
+- You cannot change the number of operands an operator takes.
+- The operators ., .*, ::, ?:, and sizeof cannot be overloaded.
+- Overloading does not automatically make related operators available.
+
+An overloaded operator should keep its familiar meaning. For example, + should
+normally create a combined value without modifying either operand.
+
+3. Unary operator overloading
+
+A unary operator works with one operand.
+
+Examples:
+- Unary minus: -value
+- Increment: ++value or value++
+- Logical not: !value
+
+A unary member operator takes no explicit operand parameter because the current
+object is the operand.
+
+4. Binary operator overloading
+
+A binary operator works with two operands.
+
+Examples:
+- Addition: left + right
+- Equality: left == right
+- Less than: left < right
+
+A binary member operator receives the right operand as its parameter. The
+current object is the left operand.
+
+5. Overloading using member functions
+
+Member form:
+
+Number Number::operator+(const Number& other) const;
+
+Member operators can directly access the current object's private data.
+
+The operators =, [], (), and -> must be member functions.
+
+6. Overloading using non-member and friend functions
+
+Non-member form:
+
+Number operator+(const Number& left, const Number& right);
+
+A friend function is a non-member function with permission to access private
+class members.
+
+Non-member overloads are useful when:
+- Both operands should be treated symmetrically.
+- The left operand is not your class.
+- You are implementing stream operators.
+
+Do not use friend automatically. Public member functions may provide enough
+access.
+
+7. Stream insertion operator <<
+
+The output operator usually returns ostream& so operations can be chained:
+
+cout << first << second;
+
+Typical signature:
+
+friend ostream& operator<<(ostream& output, const Number& value);
+
+8. Stream extraction operator >>
+
+The input operator usually returns istream&:
+
+cin >> first >> second;
+
+Typical signature:
+
+friend istream& operator>>(istream& input, Number& value);
+
+The value is non-const because input changes it.
+
+9. Assignment operator
+
+The assignment operator replaces the state of an existing object:
+
+first = second;
+
+Typical signature:
+
+ClassName& operator=(const ClassName& other);
+
+Return *this by reference to support chained assignment. A class that owns a
+raw resource may need a custom destructor, copy constructor, and copy
+assignment operator. This is called the Rule of Three.
+
+10. Subscript operator []
+
+The subscript operator provides indexed access:
+
+list[0]
+
+Provide both versions when callers need read and write access:
+
+int& operator[](size_t index);
+const int& operator[](size_t index) const;
+
+11. Function call operator ()
+
+The function call operator makes an object callable:
+
+Multiplier doubleValue(2);
+cout << doubleValue(10);
+
+Objects like this are called function objects or functors.
+
+12. Comparison operators
+
+Comparison overloads should return bool.
+
+Examples:
+
+bool operator==(const Money& other) const;
+bool operator<(const Money& other) const;
+
+Define comparisons using the value that gives the type its logical ordering.
+
+13. Prefix and postfix increment
+
+Prefix:
+
+Counter& operator++();
+
+Postfix has an unused int parameter to distinguish it:
+
+Counter operator++(int);
+
+Prefix normally returns the updated object by reference. Postfix normally
+returns a copy of the old value.
+
+14. Compound assignment
+
+Compound assignment modifies the left operand and returns it by reference:
+
+Vector& operator+=(const Vector& other);
+
+Binary + can often be implemented using +=:
+
+Vector operator+(Vector left, const Vector& right) {
+    left += right;
+    return left;
+}
+
+Design rules:
+
+- Preserve the operator's expected meaning.
+- Mark operators const when they do not modify the object.
+- Pass larger operands by const reference.
+- Return streams and assignments by reference.
+- Use prefix increment when the old value is not needed.
+- Avoid overloading an operator when a named function would be clearer.

@@ -1,0 +1,78 @@
+Level 10 Practical Steps
+
+Goal:
+Practice conventional and safe operator overloads for user-defined types.
+
+Step 1: Practice basic arithmetic operators
+
+g++ -std=c++11 example_01_member_plus.cpp -o example_01_member_plus
+.\example_01_member_plus.exe
+
+g++ -std=c++11 example_02_unary_minus.cpp -o example_02_unary_minus
+.\example_02_unary_minus.exe
+
+g++ -std=c++11 example_05_binary_member.cpp -o example_05_binary_member
+.\example_05_binary_member.exe
+
+g++ -std=c++11 example_06_binary_friend.cpp -o example_06_binary_friend
+.\example_06_binary_friend.exe
+
+Step 2: Compare prefix and postfix increment
+
+g++ -std=c++11 example_03_prefix_increment.cpp -o example_03_prefix_increment
+.\example_03_prefix_increment.exe
+
+g++ -std=c++11 example_04_postfix_increment.cpp -o example_04_postfix_increment
+.\example_04_postfix_increment.exe
+
+Step 3: Practice stream operators
+
+g++ -std=c++11 example_07_stream_insertion.cpp -o example_07_stream_insertion
+.\example_07_stream_insertion.exe
+
+g++ -std=c++11 example_08_stream_extraction.cpp -o example_08_stream_extraction
+.\example_08_stream_extraction.exe
+
+Step 4: Practice special member operators
+
+g++ -std=c++11 example_09_assignment_operator.cpp -o example_09_assignment_operator
+.\example_09_assignment_operator.exe
+
+g++ -std=c++11 example_10_subscript_operator.cpp -o example_10_subscript_operator
+.\example_10_subscript_operator.exe
+
+g++ -std=c++11 example_11_function_call_operator.cpp -o example_11_function_call_operator
+.\example_11_function_call_operator.exe
+
+Step 5: Practice comparisons and compound assignment
+
+g++ -std=c++11 example_12_comparison_operators.cpp -o example_12_comparison_operators
+.\example_12_comparison_operators.exe
+
+g++ -std=c++11 example_13_compound_assignment.cpp -o example_13_compound_assignment
+.\example_13_compound_assignment.exe
+
+Step 6: Study the complete class
+
+g++ -std=c++11 example_14_complex_number.cpp -o example_14_complex_number
+.\example_14_complex_number.exe
+
+Step 7: Modify and learn
+
+For each suitable program:
+1. Add another related operator.
+2. Check whether the operator should modify the object.
+3. Add const where appropriate.
+4. Test chained operations.
+5. Test equal, smaller, negative, and zero values.
+
+Step 8: Error practice
+
+Create and understand these errors:
+
+1. Try to overload an operator using only built-in operands.
+2. Forget const on an operator used with a const object.
+3. Return a local object by reference.
+4. Give postfix ++ no int parameter.
+5. Return ostream by value from operator<<.
+6. Access an invalid index without checking it.

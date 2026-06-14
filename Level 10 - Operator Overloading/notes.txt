@@ -1,0 +1,19 @@
+Level 10 Notes
+
+Write your own notes here.
+
+Important reminders:
+
+- At least one operand must be a user-defined type.
+- Operator precedence and number of operands cannot be changed.
+- Return *this by reference from assignment and compound assignment.
+- Prefix ++ and postfix ++ use different signatures.
+- Stream operators return the stream by reference.
+
+My observations:
+
+1.
+2.
+3.
+4.
+5.
