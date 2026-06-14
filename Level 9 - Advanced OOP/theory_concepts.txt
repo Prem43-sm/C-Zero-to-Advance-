@@ -1,0 +1,160 @@
+Level 9 Theory Concepts: Advanced OOP
+
+Goal:
+Use inheritance and polymorphism to model related types without duplicating
+common behavior.
+
+1. Inheritance
+
+Inheritance creates a new class from an existing class.
+
+class Dog : public Animal {
+};
+
+Animal is the base class. Dog is the derived class.
+
+Use public inheritance only when the derived type really "is a" base type.
+
+2. Single inheritance
+
+One derived class inherits from one base class.
+
+Example:
+Animal -> Dog
+
+3. Multiple inheritance
+
+One class inherits from more than one base class.
+
+Example:
+Printer + Scanner -> AllInOne
+
+It is useful when a class combines separate abilities, but it can introduce
+name conflicts and more complicated construction.
+
+4. Multilevel inheritance
+
+Inheritance continues through several levels.
+
+Example:
+LivingThing -> Animal -> Dog
+
+5. Hierarchical inheritance
+
+Several derived classes share one base class.
+
+Example:
+Shape -> Circle
+Shape -> Rectangle
+
+6. Hybrid inheritance
+
+Hybrid inheritance combines two or more inheritance forms. A diamond-shaped
+hierarchy is a common example.
+
+7. Constructor calls in inheritance
+
+Base-class constructors run before derived-class constructors.
+Destructors run in the reverse order.
+
+A derived constructor can select a base constructor:
+
+Dog(string name) : Animal(name) {
+}
+
+8. Function overriding
+
+A derived class overrides a virtual base function by providing a function
+with the same signature.
+
+Use the override keyword so the compiler checks your intention:
+
+void speak() const override {
+}
+
+9. Polymorphism
+
+Polymorphism means one interface can represent objects with different
+behaviors.
+
+10. Compile-time polymorphism
+
+The compiler selects the function before the program runs.
+
+Common forms:
+- Function overloading
+- Operator overloading
+- Templates
+
+11. Runtime polymorphism
+
+The program selects an overridden function while it is running.
+
+It requires:
+- A virtual function
+- A derived override
+- A base pointer or reference
+
+12. Virtual functions
+
+Mark a base function virtual when derived classes should customize it.
+
+virtual void draw() const {
+}
+
+13. Pure virtual functions
+
+A pure virtual function has = 0:
+
+virtual double area() const = 0;
+
+Derived concrete classes must override it.
+
+14. Abstract classes
+
+A class with at least one pure virtual function is abstract. You cannot create
+objects directly from an abstract class.
+
+15. Interfaces in C++
+
+C++ has no interface keyword. An interface is usually an abstract class that
+contains pure virtual functions and a virtual destructor.
+
+16. Virtual destructors
+
+A polymorphic base class should have a virtual destructor. This ensures that
+deleting a derived object through a base pointer runs both destructors.
+
+virtual ~Animal() {
+}
+
+17. Object slicing
+
+Copying a derived object into a base object removes the derived part.
+
+Animal animal = dog;  // Dog-specific state is sliced away.
+
+Use base references or pointers when polymorphic behavior is required.
+
+18. Diamond problem
+
+The diamond problem appears when two classes inherit from the same base and a
+fourth class inherits from both of them. The final class may contain two copies
+of the shared base.
+
+19. Virtual inheritance
+
+Virtual inheritance makes the most-derived object contain one shared base
+subobject.
+
+class Student : virtual public Person {
+};
+
+Design rules:
+
+- Prefer composition when the relationship is "has a."
+- Use public inheritance for a true "is a" relationship.
+- Add override to every override.
+- Give polymorphic base classes virtual destructors.
+- Pass polymorphic objects by reference or pointer to prevent slicing.
+- Keep interfaces small and focused.

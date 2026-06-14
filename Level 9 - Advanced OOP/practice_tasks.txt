@@ -1,0 +1,98 @@
+Level 9 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Vehicle hierarchy
+
+File:
+task_01_vehicle.cpp
+
+Create a Vehicle base class and Car and Bike derived classes.
+Override a displayInfo function.
+
+Task 2: Shape system
+
+File:
+task_02_shapes.cpp
+
+Create an abstract Shape class with area().
+Implement Circle, Rectangle, and Triangle.
+
+Task 3: Employee management
+
+File:
+task_03_employees.cpp
+
+Create Employee, Manager, and Developer classes.
+Use a virtual calculateSalary function.
+
+Task 4: Payment interface
+
+File:
+task_04_payments.cpp
+
+Create a PaymentMethod interface with pay().
+Implement CashPayment, CardPayment, and UpiPayment.
+
+Task 5: Multiple inheritance
+
+File:
+task_05_smart_device.cpp
+
+Create Camera and MusicPlayer classes.
+Create SmartPhone by inheriting from both.
+
+Task 6: Constructor order
+
+File:
+task_06_constructor_order.cpp
+
+Create a three-level hierarchy and print messages from every constructor and
+destructor. Explain the order in a comment.
+
+Task 7: Virtual destructor
+
+File:
+task_07_virtual_destructor.cpp
+
+Allocate a derived object through a base pointer, delete it, and verify that
+both destructors run.
+
+Task 8: Object slicing
+
+File:
+task_08_object_slicing.cpp
+
+Show the difference between passing a derived object:
+- By value
+- By reference
+
+Task 9: Diamond problem
+
+File:
+task_09_diamond.cpp
+
+Create Person, Student, Employee, and TeachingAssistant.
+Use virtual inheritance so TeachingAssistant has one Person subobject.
+
+Task 10: Notification system
+
+File:
+task_10_notifications.cpp
+
+Create a Notification interface with send().
+Implement EmailNotification, SmsNotification, and PushNotification.
+Store base pointers in an array and call send on each object.
+
+Completion checklist:
+
+[ ] I understand common inheritance forms.
+[ ] I can call a base constructor from a derived constructor.
+[ ] I can override virtual functions.
+[ ] I understand compile-time and runtime polymorphism.
+[ ] I can create an abstract class.
+[ ] I can design a small interface.
+[ ] I know why polymorphic bases need virtual destructors.
+[ ] I can recognize and avoid object slicing.
+[ ] I understand the diamond problem.
+[ ] I can use virtual inheritance.

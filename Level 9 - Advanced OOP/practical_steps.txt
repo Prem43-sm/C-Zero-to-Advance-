@@ -1,0 +1,80 @@
+Level 9 Practical Steps
+
+Goal:
+Practice inheritance, overriding, abstract classes, and safe polymorphism.
+
+Step 1: Practice inheritance forms
+
+g++ -std=c++11 example_01_single_inheritance.cpp -o example_01_single_inheritance
+.\example_01_single_inheritance.exe
+
+g++ -std=c++11 example_02_multiple_inheritance.cpp -o example_02_multiple_inheritance
+.\example_02_multiple_inheritance.exe
+
+g++ -std=c++11 example_03_multilevel_inheritance.cpp -o example_03_multilevel_inheritance
+.\example_03_multilevel_inheritance.exe
+
+g++ -std=c++11 example_04_hierarchical_inheritance.cpp -o example_04_hierarchical_inheritance
+.\example_04_hierarchical_inheritance.exe
+
+g++ -std=c++11 example_05_hybrid_inheritance.cpp -o example_05_hybrid_inheritance
+.\example_05_hybrid_inheritance.exe
+
+Step 2: Observe construction and overriding
+
+g++ -std=c++11 example_06_constructor_order.cpp -o example_06_constructor_order
+.\example_06_constructor_order.exe
+
+g++ -std=c++11 example_07_function_overriding.cpp -o example_07_function_overriding
+.\example_07_function_overriding.exe
+
+Step 3: Compare polymorphism types
+
+g++ -std=c++11 example_08_compile_time_polymorphism.cpp -o example_08_compile_time_polymorphism
+.\example_08_compile_time_polymorphism.exe
+
+g++ -std=c++11 example_09_runtime_polymorphism.cpp -o example_09_runtime_polymorphism
+.\example_09_runtime_polymorphism.exe
+
+Step 4: Practice abstract designs
+
+g++ -std=c++11 example_10_pure_virtual_abstract.cpp -o example_10_pure_virtual_abstract
+.\example_10_pure_virtual_abstract.exe
+
+g++ -std=c++11 example_11_interface.cpp -o example_11_interface
+.\example_11_interface.exe
+
+Step 5: Study common safety problems
+
+g++ -std=c++11 example_12_virtual_destructor.cpp -o example_12_virtual_destructor
+.\example_12_virtual_destructor.exe
+
+g++ -std=c++11 example_13_object_slicing.cpp -o example_13_object_slicing
+.\example_13_object_slicing.exe
+
+g++ -std=c++11 example_14_diamond_problem.cpp -o example_14_diamond_problem
+.\example_14_diamond_problem.exe
+
+Step 6: Study a complete hierarchy
+
+g++ -std=c++11 example_15_employee_management.cpp -o example_15_employee_management
+.\example_15_employee_management.exe
+
+Step 7: Modify and learn
+
+For each suitable program:
+1. Add another derived class.
+2. Add one virtual member function.
+3. Call the function through a base reference.
+4. Add override to derived implementations.
+5. Predict constructor and destructor order.
+
+Step 8: Error practice
+
+Create and understand these errors:
+
+1. Try to create an object of an abstract class.
+2. Remove an override of a pure virtual function.
+3. Misspell an overridden function while using override.
+4. Access an ambiguous diamond-base member without virtual inheritance.
+5. Pass a derived object by value and observe object slicing.

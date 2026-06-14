@@ -1,0 +1,19 @@
+Level 9 Notes
+
+Write your own notes here.
+
+Important reminders:
+
+- Public inheritance means "is a."
+- Use override for overridden functions.
+- Use a virtual destructor in polymorphic base classes.
+- Use references or pointers to avoid object slicing.
+- Prefer composition when inheritance does not model a true relationship.
+
+My observations:
+
+1.
+2.
+3.
+4.
+5.
