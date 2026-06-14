@@ -1,0 +1,76 @@
+Level 3 Practical Steps
+
+Goal:
+Practice making decisions in C++ programs.
+
+Step 1: Compile if example
+
+g++ example_01_if.cpp -o example_01_if
+.\example_01_if.exe
+
+Step 2: Practice if else
+
+g++ example_02_if_else_even_odd.cpp -o example_02_if_else_even_odd
+.\example_02_if_else_even_odd.exe
+
+Try inputs:
+2
+7
+0
+-4
+
+Step 3: Practice else if
+
+g++ example_03_else_if_grade.cpp -o example_03_else_if_grade
+.\example_03_else_if_grade.exe
+
+Try marks:
+95
+82
+66
+40
+25
+101
+-5
+
+Step 4: Practice nested conditions
+
+g++ example_04_nested_conditions.cpp -o example_04_nested_conditions
+.\example_04_nested_conditions.exe
+
+Step 5: Practice switch
+
+g++ example_05_switch_day.cpp -o example_05_switch_day
+.\example_05_switch_day.exe
+
+Step 6: Practice ternary operator
+
+g++ example_06_ternary_operator.cpp -o example_06_ternary_operator
+.\example_06_ternary_operator.exe
+
+Step 7: Practice truthy and falsy values
+
+g++ example_07_truthy_falsy.cpp -o example_07_truthy_falsy
+.\example_07_truthy_falsy.exe
+
+Step 8: Practice input validation
+
+g++ example_08_input_validation.cpp -o example_08_input_validation
+.\example_08_input_validation.exe
+
+Step 9: Build practical programs
+
+g++ example_09_largest_of_three.cpp -o example_09_largest_of_three
+.\example_09_largest_of_three.exe
+
+g++ example_10_menu_calculator.cpp -o example_10_menu_calculator
+.\example_10_menu_calculator.exe
+
+Step 10: Modify and learn
+
+For each example:
+1. Predict the output before running.
+2. Run with normal input.
+3. Run with wrong input.
+4. Fix or improve the condition.
+5. Write observations in notes.txt.

@@ -1,0 +1,106 @@
+Level 3 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Positive, negative, or zero
+
+File:
+task_01_positive_negative_zero.cpp
+
+Take one number and print whether it is positive, negative, or zero.
+
+Task 2: Even or odd
+
+File:
+task_02_even_odd.cpp
+
+Take one integer and print whether it is even or odd.
+
+Task 3: Largest of two numbers
+
+File:
+task_03_largest_two.cpp
+
+Take two numbers and print the larger number.
+
+Task 4: Largest of three numbers
+
+File:
+task_04_largest_three.cpp
+
+Take three numbers and print the largest.
+
+Task 5: Grade calculator
+
+File:
+task_05_grade_calculator.cpp
+
+Take marks from 0 to 100.
+
+Print:
+- A for 90 and above
+- B for 75 to 89
+- C for 60 to 74
+- D for 40 to 59
+- F below 40
+
+Also validate invalid marks.
+
+Task 6: Vowel or consonant
+
+File:
+task_06_vowel_consonant.cpp
+
+Take one lowercase character and check whether it is a vowel or consonant.
+
+Task 7: Simple login check
+
+File:
+task_07_login_check.cpp
+
+Take username and password.
+
+If username is admin and password is 1234, print Login successful.
+Otherwise print Invalid login.
+
+Task 8: Day name using switch
+
+File:
+task_08_day_switch.cpp
+
+Take number 1 to 7 and print day name.
+
+Task 9: Menu calculator
+
+File:
+task_09_menu_calculator.cpp
+
+Show menu:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Take choice and two numbers.
+Use switch.
+Validate division by zero.
+
+Task 10: Ternary practice
+
+File:
+task_10_ternary.cpp
+
+Take age and print Adult or Minor using ternary operator.
+
+Completion checklist:
+
+[ ] I can use if.
+[ ] I can use if else.
+[ ] I can use else if.
+[ ] I can write nested conditions.
+[ ] I can use switch.
+[ ] I can use ternary operator.
+[ ] I understand zero as false and non-zero as true.
+[ ] I can validate basic input.
+[ ] I built grade calculator.
+[ ] I built menu calculator.

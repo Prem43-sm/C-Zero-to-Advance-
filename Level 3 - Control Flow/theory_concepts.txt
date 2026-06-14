@@ -1,0 +1,119 @@
+Level 3 Theory Concepts: Control Flow
+
+Goal:
+Control flow means deciding which part of a program should run.
+
+1. if
+
+if runs code only when a condition is true.
+
+Example:
+if (age >= 18) {
+    cout << "You are an adult." << endl;
+}
+
+2. if else
+
+if else chooses between two paths.
+
+Example:
+if (number % 2 == 0) {
+    cout << "Even" << endl;
+} else {
+    cout << "Odd" << endl;
+}
+
+3. else if
+
+else if checks multiple conditions in order.
+
+Example:
+if (marks >= 90) {
+    cout << "Grade A" << endl;
+} else if (marks >= 75) {
+    cout << "Grade B" << endl;
+} else {
+    cout << "Needs improvement" << endl;
+}
+
+Important:
+Only the first true condition runs.
+
+4. Nested conditions
+
+A nested condition means an if statement inside another if statement.
+
+Example:
+if (age >= 18) {
+    if (hasId) {
+        cout << "Entry allowed" << endl;
+    }
+}
+
+Use nested conditions when one decision depends on another decision.
+
+5. switch
+
+switch is useful when one variable has many fixed possible values.
+
+Example:
+switch (choice) {
+    case 1:
+        cout << "Add" << endl;
+        break;
+    case 2:
+        cout << "Subtract" << endl;
+        break;
+    default:
+        cout << "Invalid choice" << endl;
+}
+
+Important:
+Use break to stop the switch after a case runs.
+
+6. Ternary operator
+
+The ternary operator is a short form of if else.
+
+Syntax:
+condition ? value_if_true : value_if_false
+
+Example:
+string result = (age >= 18) ? "Adult" : "Minor";
+
+Use it for simple decisions only.
+
+7. Truthy and falsy values
+
+In C++, zero means false.
+Non-zero means true.
+
+Example:
+if (5) {
+    cout << "This runs because 5 is true." << endl;
+}
+
+if (0) {
+    cout << "This will not run." << endl;
+}
+
+Beginner rule:
+Use clear boolean expressions like age >= 18 instead of relying too much on truthy/falsy values.
+
+8. Input validation basics
+
+Input validation means checking whether user input is acceptable.
+
+Example:
+if (age < 0) {
+    cout << "Age cannot be negative." << endl;
+}
+
+Common validation checks:
+- Number should not be negative.
+- Choice should be within menu range.
+- Marks should be between 0 and 100.
+- Division denominator should not be zero.
+
+Practical rule:
+Always think about wrong input, not only correct input.
