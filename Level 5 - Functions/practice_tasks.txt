@@ -1,0 +1,108 @@
+Level 5 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Greeting function
+
+File:
+task_01_greeting.cpp
+
+Create a function named greet() that prints a welcome message.
+
+Task 2: Add two numbers
+
+File:
+task_02_add.cpp
+
+Create a function:
+int add(int a, int b)
+
+Return the sum and print it in main().
+
+Task 3: Calculator functions
+
+File:
+task_03_calculator_functions.cpp
+
+Create functions for:
+- add
+- subtract
+- multiply
+- divide
+
+Take two numbers from the user and call each function.
+
+Task 4: Even or odd function
+
+File:
+task_04_even_odd_function.cpp
+
+Create a function that takes an integer and returns true if it is even.
+
+Task 5: Maximum of three
+
+File:
+task_05_max_three.cpp
+
+Create a function that takes three numbers and returns the largest.
+
+Task 6: Default argument
+
+File:
+task_06_default_argument.cpp
+
+Create a greet function with default name Student.
+
+Task 7: Function overloading
+
+File:
+task_07_overloading.cpp
+
+Create overloaded area functions:
+- area(int side)
+- area(int length, int width)
+- area(double radius)
+
+Task 8: Recursive factorial
+
+File:
+task_08_recursive_factorial.cpp
+
+Write a recursive factorial function.
+
+Task 9: Recursive Fibonacci
+
+File:
+task_09_recursive_fibonacci.cpp
+
+Write a recursive Fibonacci function.
+
+Task 10: Prime function
+
+File:
+task_10_prime_function.cpp
+
+Create:
+bool isPrime(int number)
+
+Use it in main().
+
+Task 11: Menu program using functions
+
+File:
+task_11_menu_functions.cpp
+
+Create a menu program where each menu option calls a separate function.
+
+Completion checklist:
+
+[ ] I can define a function.
+[ ] I can call a function.
+[ ] I understand parameters and arguments.
+[ ] I can return values.
+[ ] I can write void functions.
+[ ] I can use function prototypes.
+[ ] I understand local and global variables.
+[ ] I can use default arguments.
+[ ] I can overload functions.
+[ ] I understand recursion basics.

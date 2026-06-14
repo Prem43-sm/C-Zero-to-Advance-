@@ -1,0 +1,17 @@
+Level 5 Notes
+
+Write your own notes here.
+
+Functions I created:
+
+Compile commands:
+
+Run commands:
+
+Errors I created:
+
+How I fixed them:
+
+Recursion notes:
+
+Things to revise:

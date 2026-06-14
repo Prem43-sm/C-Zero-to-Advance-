@@ -1,0 +1,165 @@
+Level 5 Theory Concepts: Functions
+
+Goal:
+Functions help you organize code, avoid repetition, and solve large problems in smaller parts.
+
+1. What is a function?
+
+A function is a named block of code that performs a specific task.
+
+Example:
+void sayHello() {
+    cout << "Hello" << endl;
+}
+
+Benefits:
+- Reuse code
+- Make programs cleaner
+- Split big problems into small tasks
+- Make testing easier
+
+2. Function declaration
+
+A function declaration tells the compiler that a function exists.
+
+Example:
+int add(int a, int b);
+
+This is also called a function prototype.
+
+3. Function definition
+
+A function definition contains the actual code.
+
+Example:
+int add(int a, int b) {
+    return a + b;
+}
+
+4. Function call
+
+A function call runs the function.
+
+Example:
+int result = add(5, 3);
+
+5. Parameters and arguments
+
+Parameters are variables written in the function definition.
+
+Example:
+void greet(string name)
+
+Here, name is a parameter.
+
+Arguments are actual values passed during the function call.
+
+Example:
+greet("Amit");
+
+Here, "Amit" is an argument.
+
+6. Return values
+
+A function can send a value back using return.
+
+Example:
+int square(int number) {
+    return number * number;
+}
+
+7. void functions
+
+A void function does not return a value.
+
+Example:
+void printLine() {
+    cout << "----------" << endl;
+}
+
+8. Function prototypes
+
+If you define a function after main(), declare it before main().
+
+Example:
+int add(int a, int b);
+
+int main() {
+    cout << add(2, 3);
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+
+9. Scope of variables
+
+Scope means where a variable can be used.
+
+10. Local variables
+
+A local variable is created inside a function and can be used only inside that function.
+
+Example:
+void test() {
+    int x = 10;
+}
+
+11. Global variables
+
+A global variable is created outside all functions and can be accessed by multiple functions.
+
+Example:
+int score = 0;
+
+Use global variables carefully. Too many global variables make programs harder to understand.
+
+12. Default arguments
+
+Default arguments provide values when the caller does not pass them.
+
+Example:
+void greet(string name = "Student") {
+    cout << "Hello " << name << endl;
+}
+
+13. Function overloading
+
+Function overloading means multiple functions have the same name but different parameters.
+
+Example:
+int add(int a, int b)
+double add(double a, double b)
+
+The compiler chooses the correct function based on arguments.
+
+14. Recursion basics
+
+Recursion means a function calls itself.
+
+Example:
+int factorial(int n) {
+    if (n == 0) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+Every recursive function needs:
+- Base case to stop
+- Recursive call to move toward the base case
+
+15. Inline functions
+
+An inline function suggests to the compiler that function code may be expanded at the call location.
+
+Example:
+inline int square(int number) {
+    return number * number;
+}
+
+Beginner rule:
+Focus first on normal functions. Inline functions are useful later for small performance-sensitive functions.
+
+Practical rule:
+If the same code is repeated two or more times, think about making a function.

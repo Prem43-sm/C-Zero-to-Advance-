@@ -1,0 +1,74 @@
+Level 5 Practical Steps
+
+Goal:
+Practice writing, calling, and organizing functions.
+
+Step 1: Run a basic function
+
+g++ example_01_basic_function.cpp -o example_01_basic_function
+.\example_01_basic_function.exe
+
+Step 2: Practice parameters and arguments
+
+g++ example_02_parameters_arguments.cpp -o example_02_parameters_arguments
+.\example_02_parameters_arguments.exe
+
+Step 3: Practice return values
+
+g++ example_03_return_values.cpp -o example_03_return_values
+.\example_03_return_values.exe
+
+Step 4: Practice void function
+
+g++ example_04_void_function.cpp -o example_04_void_function
+.\example_04_void_function.exe
+
+Step 5: Practice function prototype
+
+g++ example_05_function_prototype.cpp -o example_05_function_prototype
+.\example_05_function_prototype.exe
+
+Step 6: Practice scope
+
+g++ example_06_scope.cpp -o example_06_scope
+.\example_06_scope.exe
+
+Step 7: Practice default arguments and overloading
+
+g++ example_07_default_arguments.cpp -o example_07_default_arguments
+.\example_07_default_arguments.exe
+
+g++ example_08_function_overloading.cpp -o example_08_function_overloading
+.\example_08_function_overloading.exe
+
+Step 8: Practice recursion
+
+g++ example_09_recursive_factorial.cpp -o example_09_recursive_factorial
+.\example_09_recursive_factorial.exe
+
+g++ example_10_recursive_fibonacci.cpp -o example_10_recursive_fibonacci
+.\example_10_recursive_fibonacci.exe
+
+Step 9: Build calculator using functions
+
+g++ example_11_calculator_functions.cpp -o example_11_calculator_functions
+.\example_11_calculator_functions.exe
+
+Step 10: Modify and learn
+
+For each program:
+1. Rename one function.
+2. Add one new function.
+3. Change parameter values.
+4. Try wrong return type and read the error.
+5. Write observations in notes.txt.
+
+Step 11: Error practice
+
+Create and fix these errors:
+
+1. Call a function before declaring it.
+2. Forget return in a non-void function.
+3. Pass too many arguments.
+4. Pass too few arguments.
+5. Create recursion without a base case and understand why it is dangerous.
