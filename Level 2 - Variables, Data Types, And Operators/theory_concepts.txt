@@ -1,0 +1,212 @@
+Level 2 Theory Concepts: Variables, Data Types, And Operators
+
+Goal:
+Understand how C++ stores data and performs calculations.
+
+1. Variables
+
+A variable is a named memory location used to store data.
+
+Example:
+int age = 20;
+
+Meaning:
+- int is the data type.
+- age is the variable name.
+- 20 is the value.
+
+2. Constants
+
+A constant is a value that should not change.
+
+Example:
+const double PI = 3.14159;
+
+If you try to change PI later, the compiler gives an error.
+
+3. Naming rules
+
+Valid names:
+- age
+- studentName
+- total_marks
+- number1
+
+Invalid names:
+- 1number
+- student-name
+- int
+- total marks
+
+Good habit:
+Use meaningful names like totalPrice instead of x.
+
+4. Integer types
+
+Integer types store whole numbers.
+
+Examples:
+short smallNumber = 10;
+int age = 20;
+long population = 1000000;
+long long bigNumber = 9000000000;
+
+5. Floating-point types
+
+Floating-point types store decimal numbers.
+
+Examples:
+float price = 99.5f;
+double percentage = 87.65;
+long double preciseValue = 3.1415926535L;
+
+Beginner rule:
+Use int for whole numbers and double for decimal numbers.
+
+6. char
+
+char stores a single character.
+
+Example:
+char grade = 'A';
+
+Use single quotes for char.
+
+7. bool
+
+bool stores true or false.
+
+Example:
+bool isPassed = true;
+
+8. string
+
+string stores text.
+
+Example:
+string name = "Rahul";
+
+Use double quotes for string.
+
+You need:
+#include <string>
+
+9. signed and unsigned
+
+signed numbers can be negative or positive.
+unsigned numbers cannot be negative.
+
+Example:
+signed int temperature = -5;
+unsigned int marks = 95;
+
+10. sizeof
+
+sizeof tells how many bytes a type or variable uses.
+
+Example:
+cout << sizeof(int) << endl;
+
+11. Type conversion
+
+Type conversion means changing a value from one type to another.
+
+12. Implicit conversion
+
+C++ automatically converts one type to another.
+
+Example:
+double result = 5;
+
+Here, int 5 becomes double 5.0 automatically.
+
+13. Explicit casting
+
+You manually convert one type to another.
+
+Example:
+double average = static_cast<double>(total) / count;
+
+Use static_cast for clear modern C++ casting.
+
+14. Arithmetic operators
+
+Used for calculations:
+
++ addition
+- subtraction
+* multiplication
+/ division
+% remainder
+
+Example:
+int sum = a + b;
+
+15. Assignment operators
+
+Used to assign or update values:
+
+=
++=
+-=
+*=
+/=
+%=
+
+Example:
+score += 10;
+
+16. Comparison operators
+
+Used to compare values:
+
+==
+!=
+>
+<
+>=
+<=
+
+The result is true or false.
+
+17. Logical operators
+
+Used to combine conditions:
+
+&& means AND
+|| means OR
+! means NOT
+
+Example:
+if (age >= 18 && hasId == true)
+
+18. Increment and decrement
+
+++ increases by 1.
+-- decreases by 1.
+
+Example:
+count++;
+count--;
+
+19. Operator precedence
+
+Precedence decides which operation happens first.
+
+Example:
+int result = 2 + 3 * 4;
+
+Answer is 14 because multiplication happens before addition.
+
+Use parentheses to make code clear:
+int result = (2 + 3) * 4;
+
+20. Expressions
+
+An expression is a combination of values, variables, and operators that produces a result.
+
+Example:
+int total = price * quantity;
+
+Practical rule:
+Do not just memorize operators. Use them in small programs again and again.

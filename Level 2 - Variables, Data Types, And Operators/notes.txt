@@ -1,0 +1,21 @@
+Level 2 Notes
+
+Write your own notes here.
+
+Variables I learned:
+
+Data types I learned:
+
+Operators I learned:
+
+Compile commands:
+
+Run commands:
+
+Errors I created:
+
+How I fixed them:
+
+Programs completed:
+
+Things to revise:

@@ -1,0 +1,63 @@
+Level 2 Practical Steps
+
+Goal:
+Practice variables, data types, conversions, and operators by running real programs.
+
+Step 1: Compile and run variables example
+
+g++ example_01_variables.cpp -o example_01_variables
+.\example_01_variables.exe
+
+Step 2: Compile and run data types example
+
+g++ example_02_data_types.cpp -o example_02_data_types
+.\example_02_data_types.exe
+
+Step 3: Run sizeof example
+
+g++ example_03_sizeof.cpp -o example_03_sizeof
+.\example_03_sizeof.exe
+
+Step 4: Practice operators
+
+g++ example_04_arithmetic_operators.cpp -o example_04_arithmetic_operators
+.\example_04_arithmetic_operators.exe
+
+g++ example_05_comparison_logical.cpp -o example_05_comparison_logical
+.\example_05_comparison_logical.exe
+
+Step 5: Practice type conversion
+
+g++ example_06_type_conversion.cpp -o example_06_type_conversion
+.\example_06_type_conversion.exe
+
+Step 6: Build practical mini programs
+
+g++ example_07_calculator.cpp -o example_07_calculator
+.\example_07_calculator.exe
+
+g++ example_08_temperature_converter.cpp -o example_08_temperature_converter
+.\example_08_temperature_converter.exe
+
+g++ example_09_area_perimeter.cpp -o example_09_area_perimeter
+.\example_09_area_perimeter.exe
+
+Step 7: Modify and learn
+
+For each example:
+1. Change variable values.
+2. Change data types.
+3. Change operators.
+4. Compile again.
+5. Run again.
+6. Write what changed in notes.txt.
+
+Step 8: Error practice
+
+Create and fix these errors:
+
+1. Use a variable before declaring it.
+2. Assign text to an int.
+3. Forget a semicolon.
+4. Divide two integers and compare it with decimal division.
+5. Use = when you meant ==.

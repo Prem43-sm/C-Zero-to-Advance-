@@ -1,0 +1,84 @@
+Level 1 Practice Tasks
+
+Complete all tasks by creating separate .cpp files.
+
+Task 1: Print your details
+
+File:
+task_01_print_details.cpp
+
+Print:
+- Name
+- Age
+- School or college
+- Goal for learning C++
+
+Task 2: Take name and age as input
+
+File:
+task_02_name_age.cpp
+
+Requirements:
+1. Ask the user to enter name.
+2. Ask the user to enter age.
+3. Print both values in a sentence.
+
+Task 3: Simple introduction program
+
+File:
+task_03_introduction.cpp
+
+Requirements:
+1. Take name, age, city, and hobby as input.
+2. Print a simple introduction using all values.
+
+Task 4: endl and \n practice
+
+File:
+task_04_new_lines.cpp
+
+Requirements:
+1. Print 3 lines using endl.
+2. Print 3 lines using \n.
+
+Task 5: Comments practice
+
+File:
+task_05_comments.cpp
+
+Requirements:
+1. Add at least 3 single-line comments.
+2. Add 1 multi-line comment.
+3. Program should still compile and run.
+
+Task 6: Namespace practice
+
+File:
+task_06_std_namespace.cpp
+
+Requirements:
+1. Write a program without using namespace std.
+2. Use std::cout and std::endl.
+
+Task 7: Formatting cleanup
+
+File:
+task_07_formatting.cpp
+
+Requirements:
+1. Write a working program.
+2. Keep indentation clean.
+3. Use one statement per line.
+4. Use meaningful variable names.
+
+Completion checklist:
+
+[ ] I understand #include.
+[ ] I understand header files.
+[ ] I know where the program starts.
+[ ] I can use cout.
+[ ] I can use cin.
+[ ] I can use endl and \n.
+[ ] I can write comments.
+[ ] I can compile and run Level 1 examples.
+[ ] I created my own introduction program.

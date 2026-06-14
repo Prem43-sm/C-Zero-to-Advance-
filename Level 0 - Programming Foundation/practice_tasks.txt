@@ -1,0 +1,84 @@
+Level 0 Practice Tasks
+
+Complete these tasks in order. Create separate .cpp files for each task.
+
+Task 1: First output
+
+File name:
+task_01_hello.cpp
+
+Print:
+Hello, World!
+
+Task 2: Personal introduction
+
+File name:
+task_02_intro.cpp
+
+Print:
+- Your name
+- Your age
+- Your city
+- Why you want to learn C++
+
+Task 3: Multiple lines
+
+File name:
+task_03_lines.cpp
+
+Print 5 lines about C++.
+
+Task 4: Compile from terminal
+
+Compile every file manually using g++.
+
+Example:
+g++ task_01_hello.cpp -o task_01_hello
+
+Run:
+.\task_01_hello.exe
+
+Task 5: Error practice
+
+In any task file, intentionally create these errors one by one:
+
+1. Remove a semicolon.
+2. Remove one double quote.
+3. Write cout incorrectly as coutt.
+4. Remove one curly brace.
+
+For each error:
+1. Compile the program.
+2. Read the error message.
+3. Write the error in notes.txt.
+4. Fix the code.
+
+Task 6: Explain the program
+
+In notes.txt, explain these lines in your own words:
+
+#include <iostream>
+using namespace std;
+int main()
+cout
+endl
+return 0
+
+Task 7: Build confidence
+
+Create one program named my_first_day.cpp.
+
+It should print:
+1. What you learned today.
+2. Which command compiles C++ code.
+3. Which command runs the program.
+4. One error you fixed.
+
+Completion checklist:
+
+[ ] I created a .cpp file.
+[ ] I compiled it from terminal.
+[ ] I ran the .exe file.
+[ ] I created and fixed syntax errors.
+[ ] I understand source code, compiler, linker, and executable.
+[ ] I wrote notes in notes.txt.

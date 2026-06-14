@@ -1,0 +1,15 @@
+Level 0 Notes
+
+Write your own notes here.
+
+Compiler command:
+
+Run command:
+
+Errors I found:
+
+How I fixed them:
+
+Things I understood:
+
+Things I need to revise:

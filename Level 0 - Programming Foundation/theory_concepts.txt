@@ -1,0 +1,177 @@
+Level 0 Theory Concepts: Programming Foundation
+
+Goal:
+Understand the basic words and ideas used in programming before learning C++ syntax deeply.
+
+1. What is programming?
+
+Programming means giving instructions to a computer.
+
+A computer does not think like a human. It follows clear, step-by-step instructions. When you write a program, you are telling the computer exactly what to do.
+
+Example:
+If you want the computer to add two numbers, you must tell it:
+- Take first number.
+- Take second number.
+- Add both numbers.
+- Show the answer.
+
+Practical thinking:
+Programming is not only typing code. Programming is solving a problem step by step.
+
+2. What is a programming language?
+
+A programming language is a language used to write instructions for a computer.
+
+Examples:
+- C++
+- C
+- Java
+- Python
+- JavaScript
+
+Why we need it:
+Humans cannot easily write direct machine code. Programming languages make it easier to write instructions in a readable form.
+
+3. Source code, compiler, linker, executable file
+
+Source code:
+The code written by the programmer.
+
+Example file:
+main.cpp
+
+Compiler:
+A compiler converts source code into machine-level object code.
+
+Linker:
+A linker connects your code with required libraries and creates the final program.
+
+Executable file:
+The final runnable program.
+
+On Windows, it usually has .exe extension.
+
+Simple flow:
+main.cpp -> compiler -> object code -> linker -> main.exe
+
+4. Difference between compiled and interpreted languages
+
+Compiled language:
+The code is converted into an executable before running.
+
+Examples:
+- C
+- C++
+- Rust
+
+Interpreted language:
+The code is usually run line by line by an interpreter.
+
+Examples:
+- Python
+- JavaScript
+
+C++ is a compiled language. That means you usually compile first, then run.
+
+5. What is C++?
+
+C++ is a powerful general-purpose programming language.
+
+It is used for:
+- System software
+- Games
+- Desktop applications
+- Embedded systems
+- Competitive programming
+- High-performance software
+- Browsers
+- Databases
+- Trading systems
+
+C++ gives high control over memory and performance.
+
+6. C++ standards
+
+C++ changes over time. Each major version is called a standard.
+
+Important standards:
+- C++98
+- C++03
+- C++11
+- C++14
+- C++17
+- C++20
+- C++23
+
+As a beginner, learn modern C++ style. C++17 or C++20 is a good practical target.
+
+7. Installing a compiler
+
+A compiler is required to convert C++ code into a runnable program.
+
+Common compilers:
+- GCC
+- Clang
+- MSVC
+
+On Windows, common choices are:
+- MinGW-w64 for GCC
+- Visual Studio Build Tools for MSVC
+
+8. Installing an editor or IDE
+
+An editor or IDE helps you write code.
+
+Common options:
+- VS Code
+- Visual Studio
+- Code::Blocks
+- CLion
+
+For beginners, VS Code plus a compiler is a good setup.
+
+9. Writing your first program
+
+A basic C++ program usually has:
+- Header include
+- main function
+- Statements
+- Output command
+
+Example idea:
+Print a message on screen.
+
+10. Compiling and running a program
+
+Writing code is not enough. You must compile and run it.
+
+Common terminal flow:
+1. Open terminal in your code folder.
+2. Compile the .cpp file.
+3. Run the generated executable.
+4. Read output or errors.
+5. Fix problems and try again.
+
+11. Understanding errors
+
+Syntax error:
+You wrote invalid C++ grammar.
+
+Example:
+Missing semicolon.
+
+Runtime error:
+The program compiles, but crashes or fails while running.
+
+Example:
+Dividing by zero.
+
+Logical error:
+The program runs, but gives the wrong answer.
+
+Example:
+Using subtraction when you wanted addition.
+
+Important habit:
+Errors are normal. Read the error message slowly and fix one problem at a time.

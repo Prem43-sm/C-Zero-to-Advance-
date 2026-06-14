@@ -1,0 +1,118 @@
+Level 2 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Personal data variables
+
+File:
+task_01_personal_data.cpp
+
+Create variables for:
+- name
+- age
+- height
+- grade
+- isStudent
+
+Print all values.
+
+Task 2: Constants
+
+File:
+task_02_constants.cpp
+
+Create constants for:
+- PI
+- days in week
+- months in year
+
+Use them in output statements.
+
+Task 3: Two-number calculator
+
+File:
+task_03_calculator.cpp
+
+Take two numbers as input and print:
+- sum
+- difference
+- product
+- division
+- remainder for integers
+
+Task 4: Celsius to Fahrenheit
+
+File:
+task_04_temperature.cpp
+
+Formula:
+fahrenheit = (celsius * 9 / 5) + 32
+
+Use double values.
+
+Task 5: Area and perimeter
+
+File:
+task_05_rectangle.cpp
+
+Take length and width as input.
+
+Print:
+- area
+- perimeter
+
+Task 6: Comparison practice
+
+File:
+task_06_comparison.cpp
+
+Take two numbers.
+
+Print:
+- whether they are equal
+- whether first is greater
+- whether second is greater
+
+Task 7: Logical operators
+
+File:
+task_07_logical.cpp
+
+Take age and marks.
+
+Print whether:
+- age is 18 or above
+- marks are 40 or above
+- both conditions are true
+
+Task 8: Type conversion
+
+File:
+task_08_average.cpp
+
+Take total marks and number of subjects as integers.
+
+Calculate decimal average using static_cast<double>.
+
+Task 9: Operator precedence
+
+File:
+task_09_precedence.cpp
+
+Print results of:
+2 + 3 * 4
+(2 + 3) * 4
+10 - 6 / 2
+(10 - 6) / 2
+
+Completion checklist:
+
+[ ] I can create variables.
+[ ] I know basic data types.
+[ ] I can use const.
+[ ] I can use arithmetic operators.
+[ ] I can use comparison operators.
+[ ] I can use logical operators.
+[ ] I understand integer division.
+[ ] I can use static_cast.
+[ ] I completed calculator, temperature, and area programs.

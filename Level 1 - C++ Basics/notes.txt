@@ -1,0 +1,17 @@
+Level 1 Notes
+
+Write your own notes here.
+
+Compile commands I used:
+
+Run commands I used:
+
+New concepts I learned:
+
+Errors I created:
+
+How I fixed those errors:
+
+Programs I completed:
+
+Things I need to revise:

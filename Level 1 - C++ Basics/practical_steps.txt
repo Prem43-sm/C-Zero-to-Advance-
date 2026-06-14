@@ -1,0 +1,74 @@
+Level 1 Practical Steps
+
+Goal:
+Compile, run, edit, and understand simple C++ programs.
+
+Step 1: Open this folder in VS Code
+
+Folder:
+Level 1 - C++ Basics
+
+Step 2: Compile the first example
+
+Command:
+g++ example_01_basic_structure.cpp -o example_01_basic_structure
+
+Run on Windows PowerShell:
+.\example_01_basic_structure.exe
+
+Step 3: Compile every example
+
+Commands:
+
+g++ example_02_output.cpp -o example_02_output
+.\example_02_output.exe
+
+g++ example_03_input.cpp -o example_03_input
+.\example_03_input.exe
+
+g++ example_04_intro_program.cpp -o example_04_intro_program
+.\example_04_intro_program.exe
+
+g++ example_05_comments_formatting.cpp -o example_05_comments_formatting
+.\example_05_comments_formatting.exe
+
+Step 4: Modify each example
+
+For every program:
+1. Change the printed text.
+2. Add one more cout line.
+3. Compile again.
+4. Run again.
+5. Write what changed in notes.txt.
+
+Step 5: Practice input
+
+In example_03_input.cpp:
+1. Add one more variable.
+2. Ask the user for city.
+3. Print name, age, and city.
+
+Step 6: Practice errors
+
+Create and fix these errors:
+
+1. Remove a semicolon.
+2. Remove #include <iostream>.
+3. Remove using namespace std.
+4. Change cout to Cout.
+5. Change cin to input.
+
+Write each error message in notes.txt.
+
+Step 7: Make your own program
+
+Create:
+my_introduction.cpp
+
+It should ask for:
+1. Name
+2. Age
+3. City
+4. Favorite programming language
+
+Then print a clean introduction.

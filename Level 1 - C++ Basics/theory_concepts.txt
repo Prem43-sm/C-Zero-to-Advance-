@@ -1,0 +1,165 @@
+Level 1 Theory Concepts: C++ Basics
+
+Goal:
+Understand the basic building blocks used in almost every C++ program.
+
+1. Basic structure of a C++ program
+
+A simple C++ program has a few common parts:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello" << endl;
+    return 0;
+}
+
+Meaning:
+- #include <iostream> adds input/output features.
+- using namespace std; lets us write cout instead of std::cout.
+- int main() is where the program starts.
+- cout prints output.
+- return 0; means the program ended successfully.
+
+2. #include
+
+#include tells the compiler to include code from another file before compiling.
+
+Example:
+#include <iostream>
+
+This allows you to use:
+- cout
+- cin
+- endl
+
+3. Header files
+
+Header files contain declarations and ready-made features.
+
+Common beginner headers:
+- <iostream> for input and output
+- <string> for string text
+- <cmath> for math functions
+
+Example:
+#include <iostream>
+#include <string>
+
+4. main() function
+
+main() is the starting point of a C++ program.
+
+Example:
+int main() {
+    return 0;
+}
+
+When you run a C++ program, execution starts from main().
+
+5. Statements and semicolons
+
+A statement is one complete instruction.
+
+Most C++ statements end with a semicolon.
+
+Example:
+cout << "Hello" << endl;
+
+If you forget the semicolon, the compiler will show an error.
+
+6. Comments
+
+Comments are notes for humans. The compiler ignores them.
+
+Single-line comment:
+// This is a comment
+
+Multi-line comment:
+/*
+This is a
+multi-line comment
+*/
+
+Use comments to explain why something is done, not every obvious line.
+
+7. cout for output
+
+cout prints data on the screen.
+
+Example:
+cout << "Hello, C++!" << endl;
+
+You can print multiple values:
+cout << "Age: " << 20 << endl;
+
+8. cin for input
+
+cin takes input from the user.
+
+Example:
+int age;
+cin >> age;
+
+For one-word text:
+string name;
+cin >> name;
+
+Important:
+cin with >> reads only one word for strings. Full-line input will be learned later.
+
+9. endl and \n
+
+Both can move output to a new line.
+
+Example using endl:
+cout << "Line 1" << endl;
+cout << "Line 2" << endl;
+
+Example using \n:
+cout << "Line 1\n";
+cout << "Line 2\n";
+
+Beginner rule:
+Use endl when learning. Later, use \n often because it can be faster.
+
+10. Namespaces
+
+A namespace is like a named area that groups code.
+
+C++ standard features are inside the std namespace.
+
+Without using namespace std:
+std::cout << "Hello" << std::endl;
+
+11. using namespace std
+
+This line lets you avoid writing std:: again and again.
+
+Example:
+using namespace std;
+
+cout << "Hello" << endl;
+
+Beginner note:
+It is okay to use using namespace std while learning small programs. In large professional projects, many programmers prefer std::cout directly.
+
+12. Basic formatting of code
+
+Good formatting makes code readable.
+
+Good style:
+int main() {
+    cout << "Hello" << endl;
+    return 0;
+}
+
+Bad style:
+int main(){cout<<"Hello"<<endl;return 0;}
+
+Practical rules:
+- Use indentation inside braces.
+- Put one main statement on one line.
+- Use meaningful variable names.
+- Keep code clean and readable.

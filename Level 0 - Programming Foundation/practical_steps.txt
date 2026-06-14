@@ -1,0 +1,114 @@
+Level 0 Practical Steps
+
+Goal:
+Practice the complete beginner workflow: create file, write code, compile, run, read errors, and fix code.
+
+Step 1: Create your first C++ file
+
+1. Open the Level 0 folder.
+2. Create a new file named hello.cpp.
+3. Write this code:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, C++!" << endl;
+    return 0;
+}
+
+Step 2: Open terminal in this folder
+
+In VS Code:
+1. Open the folder.
+2. Go to Terminal.
+3. Click New Terminal.
+
+You should be inside the Level 0 folder.
+
+Step 3: Check if compiler is installed
+
+Try this command:
+
+g++ --version
+
+If it shows version details, GCC is installed.
+
+If it says command not found, install a C++ compiler first.
+
+Step 4: Compile the program
+
+Use this command:
+
+g++ hello.cpp -o hello
+
+Meaning:
+- g++ is the C++ compiler.
+- hello.cpp is your source file.
+- -o hello means output program name is hello.
+
+Step 5: Run the program
+
+On Windows PowerShell:
+
+.\hello.exe
+
+Expected output:
+
+Hello, C++!
+
+Step 6: Practice changing output
+
+Change the message:
+
+cout << "My name is YOUR_NAME" << endl;
+
+Compile again:
+
+g++ hello.cpp -o hello
+
+Run again:
+
+.\hello.exe
+
+Step 7: Create an error intentionally
+
+Remove the semicolon from this line:
+
+cout << "Hello, C++!" << endl
+
+Compile again.
+
+You should see an error.
+
+Now fix the semicolon and compile again.
+
+Step 8: Learn the edit-compile-run cycle
+
+Repeat this cycle many times:
+
+1. Edit code.
+2. Save file.
+3. Compile.
+4. Run.
+5. Check output.
+6. Fix errors.
+
+This cycle is one of the most important practical habits in programming.
+
+Step 9: Try multiple lines
+
+Change your code to print:
+
+Hello, C++!
+I am learning programming.
+Today I created my first C++ program.
+
+Step 10: Keep notes
+
+Open notes.txt and write:
+
+1. What command compiled the program?
+2. What command ran the program?
+3. What error did you create?
+4. How did you fix it?
