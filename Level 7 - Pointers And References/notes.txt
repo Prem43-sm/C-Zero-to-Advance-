@@ -1,0 +1,17 @@
+Level 7 Notes
+
+Write your own notes here.
+
+Pointer concepts I learned:
+
+Reference concepts I learned:
+
+Programs I compiled:
+
+Errors I created:
+
+How I fixed them:
+
+Memory safety notes:
+
+Things to revise:

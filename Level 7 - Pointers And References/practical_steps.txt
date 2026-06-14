@@ -1,0 +1,81 @@
+Level 7 Practical Steps
+
+Goal:
+Practice memory addresses, pointers, references, and dynamic arrays.
+
+Step 1: Practice addresses
+
+g++ example_01_address_of_variable.cpp -o example_01_address_of_variable
+.\example_01_address_of_variable.exe
+
+Step 2: Practice pointer basics
+
+g++ example_02_pointer_basics.cpp -o example_02_pointer_basics
+.\example_02_pointer_basics.exe
+
+g++ example_03_dereferencing.cpp -o example_03_dereferencing
+.\example_03_dereferencing.exe
+
+Step 3: Practice null pointer
+
+g++ example_04_null_pointer.cpp -o example_04_null_pointer
+.\example_04_null_pointer.exe
+
+Step 4: Practice pointer arithmetic and arrays
+
+g++ example_05_pointer_arithmetic.cpp -o example_05_pointer_arithmetic
+.\example_05_pointer_arithmetic.exe
+
+g++ example_06_pointers_and_arrays.cpp -o example_06_pointers_and_arrays
+.\example_06_pointers_and_arrays.exe
+
+Step 5: Compare function passing styles
+
+g++ example_07_pass_by_value.cpp -o example_07_pass_by_value
+.\example_07_pass_by_value.exe
+
+g++ example_08_pass_by_pointer.cpp -o example_08_pass_by_pointer
+.\example_08_pass_by_pointer.exe
+
+g++ example_09_pass_by_reference.cpp -o example_09_pass_by_reference
+.\example_09_pass_by_reference.exe
+
+Step 6: Compare pointer and reference
+
+g++ example_10_pointer_vs_reference.cpp -o example_10_pointer_vs_reference
+.\example_10_pointer_vs_reference.exe
+
+Step 7: Practice dynamic memory
+
+g++ example_11_dynamic_memory.cpp -o example_11_dynamic_memory
+.\example_11_dynamic_memory.exe
+
+g++ example_12_dynamic_array_sum.cpp -o example_12_dynamic_array_sum
+.\example_12_dynamic_array_sum.exe
+
+Step 8: Learn dangling pointer safety
+
+g++ example_13_dangling_pointer_safe_example.cpp -o example_13_dangling_pointer_safe_example
+.\example_13_dangling_pointer_safe_example.exe
+
+Step 9: Modify and learn
+
+For each program:
+1. Print addresses and values.
+2. Change values through pointers.
+3. Change values through references.
+4. Try different array sizes.
+5. Write observations in notes.txt.
+
+Step 10: Error practice
+
+Create and understand these mistakes carefully:
+
+1. Dereference nullptr.
+2. Forget delete after new.
+3. Use delete instead of delete[] for dynamic arrays.
+4. Access dynamic array outside valid range.
+5. Use a pointer after delete.
+
+Important:
+Some pointer mistakes can crash the program. That is part of learning, but do it only in small practice files.

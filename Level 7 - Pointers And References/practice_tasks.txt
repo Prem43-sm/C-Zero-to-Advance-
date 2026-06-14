@@ -1,0 +1,112 @@
+Level 7 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Print address
+
+File:
+task_01_print_address.cpp
+
+Create an int variable and print:
+- value
+- address
+
+Task 2: Pointer basics
+
+File:
+task_02_pointer_basics.cpp
+
+Create an int variable and an int pointer.
+
+Print:
+- variable value
+- variable address
+- pointer value
+- dereferenced pointer value
+
+Task 3: Modify using pointer
+
+File:
+task_03_modify_pointer.cpp
+
+Use a pointer to change an int variable value.
+
+Task 4: Modify using reference
+
+File:
+task_04_modify_reference.cpp
+
+Use a reference to change an int variable value.
+
+Task 5: Swap using pointer
+
+File:
+task_05_swap_pointer.cpp
+
+Create:
+void swapNumbers(int* a, int* b)
+
+Swap two numbers.
+
+Task 6: Swap using reference
+
+File:
+task_06_swap_reference.cpp
+
+Create:
+void swapNumbers(int& a, int& b)
+
+Swap two numbers.
+
+Task 7: Array using pointer
+
+File:
+task_07_array_pointer.cpp
+
+Create an array and print all values using pointer arithmetic.
+
+Task 8: Dynamic integer
+
+File:
+task_08_dynamic_integer.cpp
+
+Use new to create one integer.
+Assign value.
+Print value.
+Delete memory.
+Set pointer to nullptr.
+
+Task 9: Dynamic array sum
+
+File:
+task_09_dynamic_array_sum.cpp
+
+Ask user for size.
+Create dynamic array.
+Take input values.
+Print sum.
+Delete array.
+
+Task 10: Pass by value vs reference
+
+File:
+task_10_value_vs_reference.cpp
+
+Create two functions:
+- one using pass by value
+- one using pass by reference
+
+Show how original value changes or does not change.
+
+Completion checklist:
+
+[ ] I understand memory addresses.
+[ ] I can create pointer variables.
+[ ] I can dereference pointers.
+[ ] I can check nullptr.
+[ ] I understand pointers and arrays.
+[ ] I can pass values by pointer.
+[ ] I can pass values by reference.
+[ ] I can explain pointer vs reference.
+[ ] I can use new and delete.
+[ ] I can create and delete dynamic arrays.

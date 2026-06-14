@@ -1,0 +1,181 @@
+Level 7 Theory Concepts: Pointers And References
+
+Goal:
+Pointers and references help you work directly with memory and avoid unnecessary copying.
+
+1. Memory basics
+
+Every variable is stored somewhere in computer memory.
+
+Example:
+int age = 20;
+
+The value 20 is stored at a memory address.
+
+2. Address of variable
+
+The address-of operator & gives the memory address of a variable.
+
+Example:
+cout << &age << endl;
+
+3. Pointer variables
+
+A pointer stores the address of another variable.
+
+Example:
+int age = 20;
+int* ptr = &age;
+
+Here:
+- age stores 20
+- ptr stores the address of age
+
+4. Dereferencing pointers
+
+Dereferencing means accessing the value stored at the address.
+
+Example:
+cout << *ptr << endl;
+
+If ptr points to age, *ptr gives the value of age.
+
+5. Null pointers
+
+A null pointer points to nothing.
+
+Example:
+int* ptr = nullptr;
+
+Before dereferencing a pointer, check it:
+if (ptr != nullptr)
+
+Never dereference nullptr.
+
+6. Pointer arithmetic
+
+Pointer arithmetic moves by data type size.
+
+Example:
+int numbers[3] = {10, 20, 30};
+int* ptr = numbers;
+
+ptr + 1 points to the next integer.
+
+7. Pointers and arrays
+
+The name of an array often behaves like a pointer to the first element.
+
+Example:
+int numbers[3] = {10, 20, 30};
+cout << *numbers;      // prints 10
+cout << *(numbers + 1); // prints 20
+
+8. Pointers and functions
+
+Pointers can be passed to functions so the function can modify original values.
+
+Example:
+void update(int* number) {
+    *number = 100;
+}
+
+9. Pass by value
+
+Pass by value sends a copy to the function.
+
+Changing the parameter does not change the original variable.
+
+10. Pass by pointer
+
+Pass by pointer sends the address.
+
+The function can modify the original value using dereference.
+
+11. Pass by reference
+
+Pass by reference gives another name to the original variable.
+
+Example:
+void update(int& number) {
+    number = 100;
+}
+
+12. References
+
+A reference is an alias for another variable.
+
+Example:
+int age = 20;
+int& ref = age;
+
+Changing ref changes age.
+
+13. Difference between pointer and reference
+
+Pointer:
+- Can be nullptr
+- Can point to different variables
+- Uses * to access value
+- Uses & to get address
+
+Reference:
+- Must be initialized
+- Usually cannot be changed to refer to another variable
+- Used like a normal variable
+- Often cleaner for function parameters
+
+14. Dynamic memory allocation
+
+Dynamic memory is created while the program is running.
+
+Use new to allocate memory.
+Use delete to free memory.
+
+15. new
+
+Example:
+int* ptr = new int;
+*ptr = 50;
+
+16. delete
+
+Example:
+delete ptr;
+ptr = nullptr;
+
+After delete, set pointer to nullptr to avoid dangling pointer mistakes.
+
+17. Dynamic arrays
+
+Example:
+int* numbers = new int[size];
+
+After use:
+delete[] numbers;
+numbers = nullptr;
+
+18. Memory leaks
+
+A memory leak happens when dynamically allocated memory is not released.
+
+Bad:
+int* ptr = new int;
+ptr = nullptr;
+
+Now the allocated memory cannot be deleted.
+
+19. Dangling pointers
+
+A dangling pointer points to memory that was already deleted or is no longer valid.
+
+Example:
+delete ptr;
+// ptr still stores old address unless set to nullptr
+
+Safer:
+delete ptr;
+ptr = nullptr;
+
+Practical rule:
+Modern C++ often uses smart pointers instead of raw new/delete, but learning raw pointers helps you understand memory.
