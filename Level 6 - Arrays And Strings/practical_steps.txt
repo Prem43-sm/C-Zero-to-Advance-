@@ -1,0 +1,80 @@
+Level 6 Practical Steps
+
+Goal:
+Practice arrays, matrices, and strings using real programs.
+
+Step 1: Practice array basics
+
+g++ example_01_array_basics.cpp -o example_01_array_basics
+.\example_01_array_basics.exe
+
+Step 2: Practice input, sum, and average
+
+g++ example_02_array_input_sum_average.cpp -o example_02_array_input_sum_average
+.\example_02_array_input_sum_average.exe
+
+Step 3: Practice min and max
+
+g++ example_03_min_max.cpp -o example_03_min_max
+.\example_03_min_max.exe
+
+Step 4: Practice searching and sorting
+
+g++ example_04_linear_search.cpp -o example_04_linear_search
+.\example_04_linear_search.exe
+
+g++ example_05_sorting_basics.cpp -o example_05_sorting_basics
+.\example_05_sorting_basics.exe
+
+Step 5: Practice array problems
+
+g++ example_06_reverse_array.cpp -o example_06_reverse_array
+.\example_06_reverse_array.exe
+
+g++ example_07_second_largest.cpp -o example_07_second_largest
+.\example_07_second_largest.exe
+
+Step 6: Practice 2D arrays and matrices
+
+g++ example_08_2d_array_matrix.cpp -o example_08_2d_array_matrix
+.\example_08_2d_array_matrix.exe
+
+g++ example_09_matrix_addition.cpp -o example_09_matrix_addition
+.\example_09_matrix_addition.exe
+
+Step 7: Practice strings
+
+g++ example_10_string_basics.cpp -o example_10_string_basics
+.\example_10_string_basics.exe
+
+g++ example_11_string_input_getline.cpp -o example_11_string_input_getline
+.\example_11_string_input_getline.exe
+
+g++ example_12_count_vowels.cpp -o example_12_count_vowels
+.\example_12_count_vowels.exe
+
+g++ example_13_palindrome_string.cpp -o example_13_palindrome_string
+.\example_13_palindrome_string.exe
+
+g++ example_14_character_functions.cpp -o example_14_character_functions
+.\example_14_character_functions.exe
+
+Step 8: Modify and learn
+
+For each program:
+1. Change the array size.
+2. Change loop conditions.
+3. Try negative numbers.
+4. Try repeated values.
+5. Try empty or one-word strings.
+6. Write observations in notes.txt.
+
+Step 9: Error practice
+
+Create and fix these errors:
+
+1. Access array index outside the valid range.
+2. Use <= size instead of < size.
+3. Forget #include <string>.
+4. Mix cin and getline without handling the leftover newline.
+5. Compare strings with wrong logic in palindrome program.

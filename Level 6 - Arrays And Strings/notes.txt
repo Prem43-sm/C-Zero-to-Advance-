@@ -1,0 +1,17 @@
+Level 6 Notes
+
+Write your own notes here.
+
+Array concepts I learned:
+
+String concepts I learned:
+
+Programs I compiled:
+
+Inputs I tested:
+
+Errors I created:
+
+How I fixed them:
+
+Things to revise:

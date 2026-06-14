@@ -1,0 +1,114 @@
+Level 6 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Print array
+
+File:
+task_01_print_array.cpp
+
+Create an array of 5 integers and print all elements.
+
+Task 2: Array input and sum
+
+File:
+task_02_array_sum.cpp
+
+Take 5 numbers from user and print their sum.
+
+Task 3: Average marks
+
+File:
+task_03_average_marks.cpp
+
+Take marks of 5 subjects and print average.
+
+Task 4: Minimum and maximum
+
+File:
+task_04_min_max.cpp
+
+Take 5 numbers and print smallest and largest.
+
+Task 5: Linear search
+
+File:
+task_05_linear_search.cpp
+
+Take 5 numbers and a target number. Print whether target exists.
+
+Task 6: Reverse array
+
+File:
+task_06_reverse_array.cpp
+
+Take 5 numbers and print them in reverse order.
+
+Task 7: Second largest
+
+File:
+task_07_second_largest.cpp
+
+Take 5 numbers and print the second largest value.
+
+Task 8: Sort array
+
+File:
+task_08_sort_array.cpp
+
+Take 5 numbers and sort them in ascending order.
+
+Task 9: Matrix input output
+
+File:
+task_09_matrix_io.cpp
+
+Take a 2x2 matrix and print it.
+
+Task 10: Matrix addition
+
+File:
+task_10_matrix_addition.cpp
+
+Take two 2x2 matrices and print their sum.
+
+Task 11: String length
+
+File:
+task_11_string_length.cpp
+
+Take a full name using getline and print its length.
+
+Task 12: Count vowels
+
+File:
+task_12_count_vowels.cpp
+
+Take a string and count vowels.
+
+Task 13: Palindrome string
+
+File:
+task_13_palindrome.cpp
+
+Take a string and check if it is palindrome.
+
+Task 14: Character check
+
+File:
+task_14_character_check.cpp
+
+Take one character and check whether it is alphabet, digit, or other symbol.
+
+Completion checklist:
+
+[ ] I can declare and initialize arrays.
+[ ] I can access and update array elements.
+[ ] I can traverse arrays with loops.
+[ ] I can find sum, average, min, and max.
+[ ] I can search an array.
+[ ] I can sort a small array.
+[ ] I can use 2D arrays.
+[ ] I can use std::string.
+[ ] I can use getline.
+[ ] I can solve vowel count and palindrome problems.

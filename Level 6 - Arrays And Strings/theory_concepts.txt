@@ -1,0 +1,177 @@
+Level 6 Theory Concepts: Arrays And Strings
+
+Goal:
+Arrays store many values of the same type. Strings store and process text.
+
+1. One-dimensional arrays
+
+An array stores multiple values using one name.
+
+Example:
+int marks[5] = {80, 75, 90, 65, 88};
+
+2. Array declaration
+
+Syntax:
+dataType arrayName[size];
+
+Example:
+int numbers[10];
+
+This creates space for 10 integers.
+
+3. Array initialization
+
+Example:
+int numbers[5] = {1, 2, 3, 4, 5};
+
+You can also let C++ count the size:
+int values[] = {10, 20, 30};
+
+4. Accessing array elements
+
+Array index starts from 0.
+
+Example:
+cout << numbers[0];
+
+For an array of size 5, valid indexes are 0 to 4.
+
+5. Updating array elements
+
+Example:
+numbers[2] = 100;
+
+6. Traversing arrays
+
+Traversing means visiting every element.
+
+Example:
+for (int i = 0; i < 5; i++) {
+    cout << numbers[i] << endl;
+}
+
+7. Sum, average, minimum, maximum
+
+Arrays are often used with loops to calculate:
+- sum
+- average
+- smallest value
+- largest value
+
+8. Searching in arrays
+
+Linear search checks elements one by one.
+
+Example idea:
+Compare each element with target value.
+
+9. Sorting basics
+
+Sorting arranges values in order.
+
+Example:
+Ascending order: 1, 2, 3, 4
+Descending order: 4, 3, 2, 1
+
+Beginner sorting algorithms:
+- Bubble sort
+- Selection sort
+
+10. Two-dimensional arrays
+
+A 2D array stores values in rows and columns.
+
+Example:
+int matrix[2][3];
+
+This has 2 rows and 3 columns.
+
+11. Matrix input and output
+
+Use nested loops:
+- Outer loop for rows
+- Inner loop for columns
+
+12. Matrix addition
+
+Add matching elements.
+
+Example:
+result[i][j] = first[i][j] + second[i][j];
+
+13. Matrix multiplication
+
+Matrix multiplication uses three loops.
+
+Beginner note:
+Understand matrix addition first, then multiplication.
+
+14. C-style strings
+
+C-style strings are character arrays ending with null character.
+
+Example:
+char name[20] = "Prem";
+
+15. std::string
+
+std::string is the modern and beginner-friendly way to store text.
+
+Example:
+string name = "Prem";
+
+Use:
+#include <string>
+
+16. String input problems
+
+cin reads only one word.
+
+Example:
+If input is Prem Kumar, cin reads only Prem.
+
+Use getline for full lines:
+getline(cin, fullName);
+
+17. String functions
+
+Common string operations:
+- length()
+- size()
+- empty()
+- append()
+- substr()
+- find()
+
+18. String traversal
+
+You can loop through each character.
+
+Example:
+for (int i = 0; i < name.length(); i++) {
+    cout << name[i] << endl;
+}
+
+19. Palindrome strings
+
+A palindrome reads the same forward and backward.
+
+Examples:
+- madam
+- level
+- radar
+
+20. Character functions
+
+Character functions are available in <cctype>.
+
+Common functions:
+- isalpha()
+- isdigit()
+- toupper()
+- tolower()
+- isspace()
+
+Practical rule:
+Arrays need careful index handling. Always check that your index stays inside the valid range.
