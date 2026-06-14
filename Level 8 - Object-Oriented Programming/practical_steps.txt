@@ -1,0 +1,82 @@
+Level 8 Practical Steps
+
+Goal:
+Practice creating classes, objects, constructors, and encapsulated designs.
+
+Step 1: Practice basic class and object
+
+g++ example_01_class_object.cpp -o example_01_class_object
+.\example_01_class_object.exe
+
+Step 2: Practice data members and functions
+
+g++ example_02_data_members_functions.cpp -o example_02_data_members_functions
+.\example_02_data_members_functions.exe
+
+Step 3: Practice access specifiers and encapsulation
+
+g++ example_03_access_specifiers.cpp -o example_03_access_specifiers
+.\example_03_access_specifiers.exe
+
+g++ example_04_encapsulation_student.cpp -o example_04_encapsulation_student
+.\example_04_encapsulation_student.exe
+
+Step 4: Practice constructors and destructor
+
+g++ example_05_default_constructor.cpp -o example_05_default_constructor
+.\example_05_default_constructor.exe
+
+g++ example_06_parameterized_constructor.cpp -o example_06_parameterized_constructor
+.\example_06_parameterized_constructor.exe
+
+g++ example_07_copy_constructor.cpp -o example_07_copy_constructor
+.\example_07_copy_constructor.exe
+
+g++ example_08_destructor.cpp -o example_08_destructor
+.\example_08_destructor.exe
+
+Step 5: Practice this pointer and static members
+
+g++ example_09_this_pointer.cpp -o example_09_this_pointer
+.\example_09_this_pointer.exe
+
+g++ example_10_static_members.cpp -o example_10_static_members
+.\example_10_static_members.exe
+
+Step 6: Practice friend and nested classes
+
+g++ example_11_friend_function.cpp -o example_11_friend_function
+.\example_11_friend_function.exe
+
+g++ example_12_friend_class.cpp -o example_12_friend_class
+.\example_12_friend_class.exe
+
+g++ example_13_nested_class.cpp -o example_13_nested_class
+.\example_13_nested_class.exe
+
+Step 7: Practice real-world classes
+
+g++ example_14_bank_account.cpp -o example_14_bank_account
+.\example_14_bank_account.exe
+
+g++ example_15_book_class.cpp -o example_15_book_class
+.\example_15_book_class.exe
+
+Step 8: Modify and learn
+
+For each program:
+1. Add one new data member.
+2. Add one new member function.
+3. Make data private.
+4. Add validation in setter functions.
+5. Write observations in notes.txt.
+
+Step 9: Error practice
+
+Create and understand these errors:
+
+1. Try to access private data directly from main.
+2. Forget semicolon after class closing brace.
+3. Call a member function without an object.
+4. Define static data member incorrectly.
+5. Create a constructor with wrong class name.

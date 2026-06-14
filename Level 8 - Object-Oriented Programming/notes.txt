@@ -1,0 +1,19 @@
+Level 8 Notes
+
+Write your own notes here.
+
+Classes I created:
+
+Objects I created:
+
+Constructor notes:
+
+Encapsulation notes:
+
+Programs I compiled:
+
+Errors I created:
+
+How I fixed them:
+
+Things to revise:

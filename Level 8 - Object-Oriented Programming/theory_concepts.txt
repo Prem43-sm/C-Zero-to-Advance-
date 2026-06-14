@@ -1,0 +1,172 @@
+Level 8 Theory Concepts: Object-Oriented Programming
+
+Goal:
+OOP helps you organize programs around objects that contain data and behavior.
+
+1. What is OOP?
+
+OOP means Object-Oriented Programming.
+
+It focuses on:
+- Objects
+- Classes
+- Encapsulation
+- Abstraction
+- Reusability
+
+Example real-world objects:
+- Student
+- BankAccount
+- Book
+- Car
+
+2. Class
+
+A class is a blueprint for creating objects.
+
+Example:
+class Student {
+public:
+    string name;
+    int age;
+};
+
+3. Object
+
+An object is an actual instance of a class.
+
+Example:
+Student s1;
+
+4. Data members
+
+Data members are variables inside a class.
+
+Example:
+string name;
+int age;
+
+5. Member functions
+
+Member functions are functions inside a class.
+
+Example:
+void display() {
+    cout << name << endl;
+}
+
+6. Access specifiers
+
+public:
+Accessible from outside the class.
+
+private:
+Accessible only inside the class.
+
+protected:
+Used mainly with inheritance. Accessible inside class and derived classes.
+
+7. Encapsulation
+
+Encapsulation means keeping data and functions together and protecting data from direct outside access.
+
+Common pattern:
+- Keep data private.
+- Use public functions to read or update data safely.
+
+8. Abstraction
+
+Abstraction means showing only what is necessary and hiding internal details.
+
+Example:
+You call account.deposit(1000), but you do not need to know every internal detail.
+
+9. Constructors
+
+A constructor runs automatically when an object is created.
+
+It is used to initialize an object.
+
+10. Default constructor
+
+A constructor with no parameters.
+
+Example:
+Student() {
+    name = "Unknown";
+}
+
+11. Parameterized constructor
+
+A constructor with parameters.
+
+Example:
+Student(string studentName, int studentAge) {
+    name = studentName;
+    age = studentAge;
+}
+
+12. Copy constructor
+
+A copy constructor creates a new object from an existing object.
+
+Example:
+Student s2 = s1;
+
+13. Destructor
+
+A destructor runs automatically when an object is destroyed.
+
+Example:
+~Student() {
+    cout << "Object destroyed";
+}
+
+14. this pointer
+
+this points to the current object.
+
+It is useful when parameter names and data member names are the same.
+
+Example:
+this->name = name;
+
+15. Static data members
+
+A static data member belongs to the class, not to one object.
+
+Example:
+static int count;
+
+16. Static member functions
+
+A static member function can be called using the class name.
+
+Example:
+Student::showCount();
+
+17. Friend functions
+
+A friend function is not a member function, but it can access private data of a class.
+
+Use it carefully.
+
+18. Friend classes
+
+A friend class can access private members of another class.
+
+Use it only when classes are closely related.
+
+19. Nested classes
+
+A nested class is a class inside another class.
+
+Example:
+class Outer {
+public:
+    class Inner {
+    };
+};
+
+Practical rule:
+Start with private data and public member functions. That habit makes classes safer and cleaner.

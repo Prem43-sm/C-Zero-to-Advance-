@@ -1,0 +1,95 @@
+Level 8 Practice Tasks
+
+Create separate .cpp files for each task.
+
+Task 1: Student class
+
+File:
+task_01_student.cpp
+
+Create a Student class with name, age, and marks.
+Add display function.
+
+Task 2: Encapsulated student
+
+File:
+task_02_encapsulated_student.cpp
+
+Make data private.
+Add setter and getter functions.
+Validate age and marks.
+
+Task 3: Bank account
+
+File:
+task_03_bank_account.cpp
+
+Create a BankAccount class with:
+- account holder name
+- balance
+- deposit function
+- withdraw function
+- display balance function
+
+Task 4: Book class
+
+File:
+task_04_book.cpp
+
+Create a Book class with title, author, and price.
+Use a parameterized constructor.
+
+Task 5: Constructor practice
+
+File:
+task_05_constructor.cpp
+
+Create a class with default and parameterized constructors.
+
+Task 6: Copy constructor
+
+File:
+task_06_copy_constructor.cpp
+
+Create an object and copy it using a copy constructor.
+
+Task 7: Static object count
+
+File:
+task_07_static_count.cpp
+
+Create a class that counts how many objects are created.
+
+Task 8: this pointer
+
+File:
+task_08_this_pointer.cpp
+
+Use this pointer when constructor parameter names match data member names.
+
+Task 9: Friend function
+
+File:
+task_09_friend_function.cpp
+
+Create a class with private data and a friend function that prints that data.
+
+Task 10: Nested class
+
+File:
+task_10_nested_class.cpp
+
+Create a class University with nested class Department.
+
+Completion checklist:
+
+[ ] I can create a class.
+[ ] I can create objects.
+[ ] I understand public and private.
+[ ] I can write member functions.
+[ ] I can use constructors.
+[ ] I can use copy constructor basics.
+[ ] I understand destructor basics.
+[ ] I can use this pointer.
+[ ] I can use static data members.
+[ ] I can create practical classes like Student, BankAccount, and Book.
